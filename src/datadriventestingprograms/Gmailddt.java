@@ -12,7 +12,7 @@ public class Gmailddt
 
 	public static void main(String[] args) throws Exception
 	{
-		//open excel file in read mode
+		
 		File f=new File("E:\\leelajava\\datadriventesting\\datadrivenusingexcel.xls");
 		Workbook rwb=Workbook.getWorkbook(f);
 		Sheet rsh=rwb.getSheet(0);
